@@ -34,9 +34,9 @@ class SleepNightAdapter: RecyclerView.Adapter<TextItemViewHolder>() {
                 .inflate(R.layout.text_item_view, parent, false) as TextView
         return TextItemViewHolder(view)
     }
-}
-class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
-    val sleepLength: TextView = itemView.findViewById(R.id.sleep_length)
-    val quality: TextView = itemView.findViewById(R.id.quality_string)
-    val qualityImage: ImageView = itemView.findViewById(R.id.quality_image)
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+        val sleepLength: TextView = itemView.findViewById(R.id.sleep_length)
+        val quality: TextView = itemView.findViewById(R.id.quality_string)
+        val qualityImage: ImageView = itemView.findViewById(R.id.quality_image)
+    }
 }
